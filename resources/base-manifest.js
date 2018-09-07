@@ -4,6 +4,12 @@ const manifest =
     "name": "Minimal Grey", // Project name
     "version": "x.x.x", // Project version
     "description": "A minimalist, grey Chrome theme", // Project description
+    "icons": {
+        "16": "icons/16.png",
+        "32": "icons/32.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    },
     "theme": {
         "colors": {
             "frame": [0,0,0],
