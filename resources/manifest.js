@@ -1,3 +1,6 @@
+// This is only used a reference for if I ever want to update the chrome theme, 
+// as Google's docs around manifest theme documentation is dreadful.
+
 const manifest = 
 {
     "manifest_version": 2, // Chrome manifest version
