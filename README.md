@@ -1,6 +1,6 @@
 # chrome-theme-minimal-grey
 
-A new minimalist, grey Chrome theme.
+A minimalist, grey Chrome theme.
 
 ## Why?
 

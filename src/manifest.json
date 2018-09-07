@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Minimal Grey",
+    "version": "0.0.1",
+    "description": "A minimalist, grey Chrome theme",
+    "theme": {
+        "colors": {
+            "frame": [78,78,78],
+            "toolbar": [235,235,235],
+            "tab_text": [48,48,48],
+            "tab_background_text": [48,48,48],
+            "ntp_background": [255,255,255],
+            "button_background": [163,163,163,1]
+        },
+        "images": {
+            "theme_frame": "images/theme_frame.png",
+            "theme_toolbar": "images/theme_toolbar.png",
+            "theme_tab_background": "images/theme_tab_background.png"
+        },
+        "properties": {
+            "ntp_background_alignment": "bottom",
+            "ntp_background_repeat": "no-repeat"
+        },
+        "tints": {
+            "buttons": [0,0,0.2]
+        }
+    }
+}
