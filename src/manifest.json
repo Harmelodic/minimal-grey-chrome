@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Minimal Grey",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "A minimalist, grey Chrome theme",
     "theme": {
         "colors": {
