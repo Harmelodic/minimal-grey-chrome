@@ -1,16 +1,25 @@
 {
-    "name": "chrome-theme-minimal-grey",
-    "version": "1.0.1",
-    "description": "A minimalist, grey Chrome theme",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "rm -f *.zip && zip -r $npm_package_name.$npm_package_version.zip src"
-    },
-    "keywords": [
-        "Chrome",
-        "theme",
-        "minimalist"
-    ],
-    "author": "Harmelodic",
-    "license": "UNLICENSED"
+  "name": "chrome-theme-minimal-grey",
+  "version": "1.0.1",
+  "description": "A minimalist, grey Chrome theme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rm -f *.zip && zip -r $npm_package_name.$npm_package_version.zip src"
+  },
+  "keywords": [
+    "Chrome",
+    "theme",
+    "minimalist"
+  ],
+  "author": "Harmelodic",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Harmelodic/chrome-theme-minimal-grey.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/Harmelodic/chrome-theme-minimal-grey/issues"
+  },
+  "homepage": "https://gitlab.com/Harmelodic/chrome-theme-minimal-grey#readme"
 }
