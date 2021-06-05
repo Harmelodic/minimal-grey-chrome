@@ -1,4 +1,4 @@
-# chrome-theme-minimal-grey
+# minimal-grey-chrome
 
 A minimalist, grey Chrome theme.
 
