@@ -1,5 +1,5 @@
 {
-  "name": "chrome-theme-minimal-grey",
+  "name": "minimal-grey-chrome",
   "version": "1.0.4",
   "description": "A minimalist, grey Chrome theme",
   "scripts": {
@@ -16,10 +16,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/Harmelodic/chrome-theme-minimal-grey.git"
+    "url": "git+https://gitlab.com/Harmelodic/minimal-grey-chrome.git"
   },
   "bugs": {
-    "url": "https://gitlab.com/Harmelodic/chrome-theme-minimal-grey/issues"
+    "url": "https://gitlab.com/Harmelodic/minimal-grey-chrome/issues"
   },
-  "homepage": "https://gitlab.com/Harmelodic/chrome-theme-minimal-grey#readme"
+  "homepage": "https://gitlab.com/Harmelodic/minimal-grey-chrome#readme"
 }
