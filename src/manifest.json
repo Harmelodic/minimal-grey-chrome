@@ -1,46 +1,46 @@
 {
-    "manifest_version": 2,
-    "name": "Minimal Grey",
-    "version": "1.0.4",
-    "description": "A minimalist, grey Chrome theme",
-    "icons": {
-        "16": "icons/16.png",
-        "32": "icons/32.png",
-        "48": "icons/48.png",
-        "128": "icons/128.png"
-    },
-    "theme": {
-        "colors": {
-            "frame": [78,78,78],
-            "frame_inactive": [100,100,100],
-            "frame_incognito": [0,0,0],
-            "frame_incognito_inactive": [30,30,30],
-            "background_tab": [78,78,78],
-            "background_tab_inactive": [100,100,100],
-            "background_tab_incognito": [0,0,0],
-            "background_tab_incognito_inactive": [30,30,30],
-            "bookmark_text": [0,0,0],
-            "button_background": [78,78,78],
-            "tab_background_text": [200,200,200],
-            "tab_background_text_inactive": [200,200,200],
-            "tab_background_text_incognito": [200,200,200],
-            "tab_background_text_incognito_inactive": [200,200,200],
-            "tab_text": [48,48,48],
-            "toolbar": [235,235,235],
-            "toolbar_button_icon": [0,0,0],
-            "omnibox_text": [0,0,0],
-            "omnibox_background": [235,235,235],
-            "ntp_background": [255,255,255],
-            "ntp_header": [0,0,0],
-            "ntp_link": [0,0,0],
-            "ntp_text": [0,0,0]
-        },
-        "properties": {
-            "ntp_background_alignment": "bottom",
-            "ntp_background_repeat": "no-repeat"
-        },
-        "tints": {
-            "buttons": [0,0,0.2]
-        }
-    }
+	"manifest_version": 2,
+	"name": "Minimal Grey",
+	"version": "1.0.4",
+	"description": "A minimalist, grey Chrome theme",
+	"icons": {
+		"16": "icons/16.png",
+		"32": "icons/32.png",
+		"48": "icons/48.png",
+		"128": "icons/128.png"
+	},
+	"theme": {
+		"colors": {
+			"frame": [78,78,78],
+			"frame_inactive": [100,100,100],
+			"frame_incognito": [0,0,0],
+			"frame_incognito_inactive": [30,30,30],
+			"background_tab": [78,78,78],
+			"background_tab_inactive": [100,100,100],
+			"background_tab_incognito": [0,0,0],
+			"background_tab_incognito_inactive": [30,30,30],
+			"bookmark_text": [0,0,0],
+			"button_background": [78,78,78],
+			"tab_background_text": [200,200,200],
+			"tab_background_text_inactive": [200,200,200],
+			"tab_background_text_incognito": [200,200,200],
+			"tab_background_text_incognito_inactive": [200,200,200],
+			"tab_text": [48,48,48],
+			"toolbar": [235,235,235],
+			"toolbar_button_icon": [0,0,0],
+			"omnibox_text": [0,0,0],
+			"omnibox_background": [235,235,235],
+			"ntp_background": [255,255,255],
+			"ntp_header": [0,0,0],
+			"ntp_link": [0,0,0],
+			"ntp_text": [0,0,0]
+		},
+		"properties": {
+			"ntp_background_alignment": "bottom",
+			"ntp_background_repeat": "no-repeat"
+		},
+		"tints": {
+			"buttons": [0,0,0.2]
+		}
+	}
 }
