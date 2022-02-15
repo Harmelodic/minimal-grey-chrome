@@ -16,10 +16,10 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://gitlab.com/Harmelodic/minimal-grey-chrome.git"
+		"url": "git+https://github.com/Harmelodic/minimal-grey-chrome.git"
 	},
 	"bugs": {
-		"url": "https://gitlab.com/Harmelodic/minimal-grey-chrome/issues"
+		"url": "https://github.com/Harmelodic/minimal-grey-chrome/issues"
 	},
-	"homepage": "https://gitlab.com/Harmelodic/minimal-grey-chrome#readme"
+	"homepage": "https://github.com/Harmelodic/minimal-grey-chrome#readme"
 }
