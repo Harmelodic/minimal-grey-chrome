@@ -14,5 +14,5 @@ jobs:
       - run: sudo apt install -y jq
       - run: manifest_version=$(jq -r '.version' src/manifest.json)
       - run: zip -r "minimal-grey-chrome.$manifest_version.zip" src
-      - run: git tag -a -m "$manifest_version" $manifest_version
+      - run: git tag -a "$manifest_version" -m "$manifest_version"
       - run: git push --follow-tags
