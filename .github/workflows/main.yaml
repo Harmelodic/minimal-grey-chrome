@@ -9,11 +9,10 @@ on:
 
 jobs:
   verify-github-workflows:
-    uses: harmelodic/workflows/.github/workflows/verify-github-workflows.yaml@d8c3ce35546b8b035d333149dea72ab3fac2ab83
+    uses: harmelodic/workflows/.github/workflows/verify-github-workflows.yaml@f4e30f59f915e57676015f1c829f3a0ffff03c72
 
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
-      - working-directory: src
-        run: zip -r "minimal-grey-chrome.main.zip" .
+  build-browser-extension:
+    uses: harmelodic/workflows/.github/workflows/build-browser-extension.yaml@f4e30f59f915e57676015f1c829f3a0ffff03c72
+    with:
+      extension-name: minimal-grey-chrome
+      release-version: $GITHUB_SHA
