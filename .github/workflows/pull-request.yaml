@@ -15,4 +15,4 @@ jobs:
     uses: harmelodic/workflows/.github/workflows/build-browser-extension.yaml@f4e30f59f915e57676015f1c829f3a0ffff03c72
     with:
       extension-name: minimal-grey-chrome
-      release-version: $GITHUB_SHA
+      release-version: ${{ github.sha }}
