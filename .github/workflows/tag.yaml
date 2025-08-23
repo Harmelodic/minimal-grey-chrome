@@ -7,7 +7,7 @@ on:
       - "*"
   workflow_dispatch: {}
 
-jobs:  
+jobs:
   release-browser-extension:
     uses: harmelodic/workflows/.github/workflows/release-browser-extension.yaml@f4e30f59f915e57676015f1c829f3a0ffff03c72
     with:
